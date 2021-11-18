@@ -17,7 +17,7 @@ app.layout = html.Div([
             options=[{'label':i,'value':i} for i in features],
             value='displacement'
         )],
-        style={'width':'48%','display':'inline-block'}
+        style={'width':'48%', 'display':'inline-block'}
     ),
     html.Div([
         dcc.Dropdown(
